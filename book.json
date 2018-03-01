@@ -14,15 +14,5 @@
                 }
             ]
         }
-    },
-        "plugins": ["github-embed"],
-        "pluginsConfig": {
-            "github-embed": {
-                "showLink": true, 
-                "reindent": true 
-            }
-        }
     }
-
-
-
+}
