@@ -2,6 +2,8 @@
 
 # and your second
 
+Test Link: https://github.com/mrmccormack/tabris-gitbook/blob/master/testfromgithub.js
+
 
 
 ```js
@@ -95,7 +97,6 @@ cheatMode = false;  // toggle ???
   diceImage1.opacity = 0.5;
 
   }).appendTo(ui.contentView);
-
 ```
 
 
