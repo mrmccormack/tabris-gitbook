@@ -1,6 +1,7 @@
 # Tabris.js: A Gentle Introduction PDF
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This file file serves as your book's preface, a great place to describe your book's content and ideas. xxx
+
 
 
 
@@ -8,6 +9,6 @@ This file file serves as your book's preface, a great place to describe your boo
 
 >Sample Embed Maybe
 
-{% github_embed "https://github.com/mrmccormack/tabris-gitbook/blob/master/testfromgithub.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/v5analytics/gitbook-plugin-github-embed/blob/master/src/tag.js" %}{% endgithub_embed %}
 
 
