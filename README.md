@@ -2,6 +2,8 @@
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas. xxx yyy zzz
 
+
+![](https://cdn.pixabay.com/photo/2017/07/11/12/42/smartphone-2493419_960_720.jpg)
 ## Updated feb 28, 9:32PM
 ![](https://tabrisjs.com/assets/public-content/img/iphone-cropped-small.png)
 
