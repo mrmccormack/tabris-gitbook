@@ -1,5 +1,5 @@
 const {ui, ImageView, AlertDialog, Button} = require('tabris');
-// example of images side by side - Matt.
+// example of images side by side - Matt. Now is the time
 
 const IMAGE_PATH = 'https://mrmccormack.github.io/imd-learning-tabris/images/';
 const DICE_OFFSET = 30;
