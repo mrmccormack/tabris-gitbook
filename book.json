@@ -15,4 +15,17 @@
             ]
         }
     }
+
+    {
+        plugins: ['github-embed'],
+        pluginsConfig: {
+            'github-embed': {
+                showLink: true, // Optional, defaults to true
+                reindent: true // Optional, defaults to true
+            }
+        }
+    }
+
+
 }
+
