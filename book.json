@@ -15,8 +15,6 @@
             ]
         }
     },
-
-    {
         "plugins": ["github-embed"],
         "pluginsConfig": {
             "github-embed": {
