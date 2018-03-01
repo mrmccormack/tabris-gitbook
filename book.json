@@ -17,9 +17,9 @@
     }
 
     {
-        "plugins": ['github-embed'],
+        "plugins": ["github-embed"],
         "pluginsConfig": {
-            'github-embed': {
+            "github-embed": {
                 "showLink": true, // Optional, defaults to true
                 "reindent": true // Optional, defaults to true
             }
