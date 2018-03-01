@@ -2,9 +2,9 @@
 
 # and your second
 
-Test Link: https://github.com/mrmccormack/tabris-gitbook/blob/master/testfromgithub.js
+---
 
-
+Test Link: [https://github.com/mrmccormack/tabris-gitbook/blob/master/testfromgithub.js](https://github.com/mrmccormack/tabris-gitbook/blob/master/testfromgithub.js)
 
 ```js
 const {ui, ImageView, AlertDialog, Button} = require('tabris');
