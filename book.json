@@ -16,14 +16,3 @@
         }
     }
 }
-
-{
-    "plugins": ["scripts"],
-    "pluginsConfig": {
-        "scripts": {
-            "files": [
-                "./myscript.js"
-            ]
-        }
-    }
-}
