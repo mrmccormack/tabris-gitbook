@@ -14,7 +14,7 @@
                 }
             ]
         }
-    }
+    },
 
     {
         "plugins": ["github-embed"],
