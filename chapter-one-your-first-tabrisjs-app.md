@@ -4,7 +4,7 @@
 
 
 
-```
+```js
 const {ui, ImageView, AlertDialog, Button} = require('tabris');
 // example of images side by side - Matt.
 
