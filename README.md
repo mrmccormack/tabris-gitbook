@@ -1,4 +1,5 @@
-# Tabris.js: A Gentle Introduction PDF with EMBED ddd
+# Tabris.js: A Gentle Introduction PDF with EMBED ddd Thursday
+
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas. xxx yyy zzz
 
