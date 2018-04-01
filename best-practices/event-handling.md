@@ -1,8 +1,8 @@
-# Event Handling
+# Event Handling Style
 
 Events may be shown in two ways.
 
-## Events as part of declaration  
+## Events as part of declaration
 
 ```js
 // button with event outside
@@ -33,12 +33,4 @@ console.log (urlInput.text);
 ## Events outside of declaration
 
 This book always separates the event from the declaration for readability.
-
-
-
-
-
-
-
-
 
