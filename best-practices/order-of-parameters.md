@@ -1,8 +1,19 @@
-# Guidelines for order of Widget properties
+# Ordering of Widget properties
 
+Widget properties take the form
 
+```js
+property: parameter,
+```
 
+Note commas separate properties,  
+Example:
 
+```js
+left: 8,
+```
+
+Properties may be listed on multiple lines or on one line as shown.
 
 ```js
 let txiMarkDown = new TextInput({
@@ -14,7 +25,17 @@ let txiMarkDown = new TextInput({
 }).appendTo(ui.contentView);
 ```
 
+For readability, this book sets all positioning properties on one line, immediately afgter the `let` statement
 
+```js
+left: 8, right: 8, top: 'prev() 10'
+```
+
+Dimensions are shown next
+
+```js
+height: 100,
+```
 
 
 
