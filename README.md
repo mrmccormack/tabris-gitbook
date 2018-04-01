@@ -1,4 +1,4 @@
-# Tabris.js: A Gentle Introduction PDF with EMBED ddd Thursday
+# Tabris.js: A Gentle Introduction PDF with EMBED April 1
 
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas. xxx yyy zzz
@@ -13,5 +13,3 @@ This file file serves as your book's preface, a great place to describe your boo
 >Sample Embed Maybe
 
 {% github_embed "https://github.com/v5analytics/gitbook-plugin-github-embed/blob/master/src/tag.js" %}{% endgithub_embed %}
-
-
