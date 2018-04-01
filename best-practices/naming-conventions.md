@@ -24,8 +24,8 @@ let txiMarkDown = new TextInput({
 
 | Widget | Naming prefix / example |
 | :--- | :--- |
-| **TextInput** | txi  / txiMarkDown |
-| **TextView** | txv / txvCountry |
+| **TextInput** | **txi**  / txiMarkDown |
+| **TextView** | **txv** / txvCountry |
 
 
 

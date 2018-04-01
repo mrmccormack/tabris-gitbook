@@ -3,7 +3,6 @@
 
 
 ```js
-let txiMarkDown = new TextInput({
   left: 8, right: 8, top: 'prev() 10',
   height: 100,
   message: MESSAGE,
@@ -11,6 +10,11 @@ let txiMarkDown = new TextInput({
   text: INITIAL_TEXT
 }).appendTo(ui.contentView);
 ```
+
+| Widget | Naming prefix / example |
+| :--- | :--- |
+| **TextInput** | **txi**  / txiMarkDown |
+| **TextView** | **txv** / txvCountry |
 
 
 
