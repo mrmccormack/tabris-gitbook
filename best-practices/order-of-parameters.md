@@ -1,8 +1,11 @@
-# Guidelines for order of parameters
+# Guidelines for order of Widget properties
+
+
 
 
 
 ```js
+let txiMarkDown = new TextInput({
   left: 8, right: 8, top: 'prev() 10',
   height: 100,
   message: MESSAGE,
@@ -11,10 +14,7 @@
 }).appendTo(ui.contentView);
 ```
 
-| Widget | Naming prefix / example |
-| :--- | :--- |
-| **TextInput** | **txi**  / txiMarkDown |
-| **TextView** | **txv** / txvCountry |
+
 
 
 
