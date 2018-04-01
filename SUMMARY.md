@@ -11,6 +11,7 @@
 * [Naming Conventions](best-practices/naming-conventions.md)
 * [Ordering of Widget properties](best-practices/order-of-parameters.md)
 * [Coding Style](best-practices/coding-style.md)
+* [Event handling](best-practices/event-handling.md)
 * [Test: JS code lots of](best-practices/test-js-code-lots-of.md)
 
 ## Methods
