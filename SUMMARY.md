@@ -10,6 +10,9 @@
 
 ## Best Practices
 
+* [Naming Conventions](best-practices/naming-conventions.md)
+* [Order of parameters](best-practices/order-of-parameters.md)
+
 ## add with ---
 
 * [goodbye](add-with-/goodbye.md)
