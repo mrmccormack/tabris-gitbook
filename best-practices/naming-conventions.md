@@ -1,6 +1,6 @@
 # Naming Conventions
 
-## Widgets 
+## Widgets
 
 Generally, if there is on only one Widget in an app, just use the full name
 
@@ -12,8 +12,6 @@ let activityIndicator = new ActivityIndicator({
 }).appendTo(ui.contentView);
 ```
 
-
-
 ```js
 let txiMarkDown = new TextInput({
   left: 8, right: 8, top: 'prev() 10',
@@ -24,11 +22,9 @@ let txiMarkDown = new TextInput({
 }).appendTo(ui.contentView);
 ```
 
-
-
 | Widget | Naming prefix / example |
 | :--- | :--- |
-| **TextInput**   | txi  / txiMarkDown |
+| **TextInput** | txi  / txiMarkDown |
 | **TextView** | txv / txvCountry |
 
 
