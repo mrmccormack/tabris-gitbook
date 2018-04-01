@@ -1,62 +1,61 @@
 # Sample of lost of .js code
 
+```js
+const {Button, TextView, TextInput, WebView, ui} = require('tabris');
 
+const INITIAL_TEXT = '![](https://cdn2.iconfinder.com/data/icons/nodejs-1/64/nodejs-64.png)\n# Heading \n- one \n- two \n---\n \
+Instant and elegant Markdown documents\n```js\n \
+alert("Hello")\; \n```' ;
 
-    const {Button, TextView, TextInput, WebView, ui} = require('tabris');
+const MESSAGE = 'Enter Markdown...';
+const TITLE = 'Strapdown.js';
 
-    const INITIAL_TEXT = '![](https://cdn2.iconfinder.com/data/icons/nodejs-1/64/nodejs-64.png)\n# Heading \n- one \n- two \n---\n \
-    Instant and elegant Markdown documents\n```js\n \
-    alert("Hello")\; \n```' ;
+new TextView({
+  left: 8, right: 8, top: 16,
+  text: 'Enter some Markdown:',
+}).appendTo(ui.contentView);
 
-    const MESSAGE = 'Enter Markdown...';
-    const TITLE = 'Strapdown.js';
+let txiMarkDown = new TextInput({
+  left: 8, right: 8, top: 'prev() 10',
+  height: 100,
+  message: MESSAGE,
+  type: 'multiline',
+  text: INITIAL_TEXT
+}).appendTo(ui.contentView);
 
-    new TextView({
-      left: 8, right: 8, top: 16,
-      text: 'Enter some Markdown:',
-    }).appendTo(ui.contentView);
+let btnRenderMarkDown = new Button({
+    centerX: 0, top: 'prev() 10',
+    text: 'Render Markdown'
+  })
+.appendTo(ui.contentView);
 
-    let txiMarkDown = new TextInput({
-      left: 8, right: 8, top: 'prev() 10',
-      height: 100,
-      message: MESSAGE,
-      type: 'multiline',
-      text: INITIAL_TEXT
-    }).appendTo(ui.contentView);
+btnRenderMarkDown.on('select', () => {
+  renderMarkdown();
+})
 
-    let btnRenderMarkDown = new Button({
-        centerX: 0, top: 'prev() 10',
-        text: 'Render Markdown'
-      })
-    .appendTo(ui.contentView);
+// This will render each time text is changed
+// txiMarkDown.on('textChanged', () => {
+//   renderMarkdown();
+// })
 
-    btnRenderMarkDown.on('select', () => {
-      renderMarkdown();
-    })
+let webView = new WebView({
+  left: 0, top: 'prev() 8', right: 0, bottom: 0
+}).appendTo(ui.contentView);
 
-    // This will render each time text is changed
-    // txiMarkDown.on('textChanged', () => {
-    //   renderMarkdown();
-    // })
+function renderMarkdown() {
+  let HTML_TEMPLATE =  '<!DOCTYPE html>\
+  <html>\
+  <title>' + TITLE + '</title>\
+  <xmp theme="Cerulean" style="display:none;">\
+  ' + txiMarkDown.text + '</xmp>\
+  <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>\
+  </html>';
+  webView.html = HTML_TEMPLATE;
+}
 
-    let webView = new WebView({
-      left: 0, top: 'prev() 8', right: 0, bottom: 0
-    }).appendTo(ui.contentView);
-
-    function renderMarkdown() {
-      let HTML_TEMPLATE =  '<!DOCTYPE html>\
-      <html>\
-      <title>' + TITLE + '</title>\
-      <xmp theme="Cerulean" style="display:none;">\
-      ' + txiMarkDown.text + '</xmp>\
-      <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>\
-      </html>';
-      webView.html = HTML_TEMPLATE;
-    }
-
-    // render when loaded
-    renderMarkdown();
-
+// render when loaded
+renderMarkdown();
+```
 
 
 
