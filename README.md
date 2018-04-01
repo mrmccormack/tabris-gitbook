@@ -1,4 +1,4 @@
-# Tabris.js: A Gentle Introduction PDF with EMBED April 1
+# Tabris.js: A Gentle Introduction PDF with EMBED April 1, 2017
 
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas. xxx yyy zzz
