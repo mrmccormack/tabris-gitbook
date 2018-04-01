@@ -8,9 +8,11 @@
 * [Add an Article](add-an-article.md)
 * [TEST FEB 28 9:31PM](test-feb-28-931pm.md)
 
+## Best Practices
+
 ## add with ---
 
-* goodbye
+* [goodbye](add-with-/goodbye.md)
 
 ## Methods
 
