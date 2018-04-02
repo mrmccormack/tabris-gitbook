@@ -2,11 +2,9 @@
 
 Show the global gitbook variable here... what  would  you use if for.???
 
-
-
 Introduction
 
-Tabris.js is a mobile framework that lets you develop apps for iOS, Android and Windows from a single code base written entirely in JavaScript or TypeScript and JSX.
+> Tabris.js is a mobile framework that lets you develop apps for iOS, Android and Windows from a single code base written entirely in JavaScript or TypeScript and JSX.
 
 _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 
