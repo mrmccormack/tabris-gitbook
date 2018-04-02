@@ -22,10 +22,11 @@ let txiMarkDown = new TextInput({
 }).appendTo(ui.contentView);
 ```
 
-| Widget | Naming prefix / example |
-| :--- | :--- |
-| **TextInput** | **txi**  / txiMarkDown |
-| **TextView** | **txv** / txvCountry |
+| Widget | Prefix | Example |
+| :--- | :--- | :--- |
+| **TextInput** | **txi** | **txiMarkDown** |
+| **TextView** | **txv** | ** txvCountry** |
+| **Button** | **btn** | **btnReadFile** |
 
 
 
