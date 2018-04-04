@@ -1,4 +1,4 @@
-# Tabris.js: A Gentle Introduction PDF
+# Tabris.js: A Gentle Introduction
 
 ## Introduction
 
@@ -20,8 +20,5 @@ You can try out Tabris.js without installing anything on your computer.
 
 To start developing a real Tabris.js app, follow the[Quick Start Guide](https://tabrisjs.com/tabris-js-docs/latest/getting-started.html). We also have an excellent[ebook](https://tabrisjs.com/downloads/)that explains how to create, deploy and test your first Tabris.js app.
 
-![](/assets/cover.jpg)  
-
-
-
+![](/assets/cover.jpg)
 
