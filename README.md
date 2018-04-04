@@ -32,3 +32,6 @@ To start developing a real Tabris.js app, follow the[Quick Start Guide](https://
 
 ![](/assets/cover.jpg)
 
+# Test include .md
+{% include "./README.md" %}
+
