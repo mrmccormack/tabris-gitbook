@@ -6,6 +6,7 @@
 ---
 
 # Plugins
+> It seems that plugins only work locally... that would explain the trouble.
 - can you embed a gist or a File from repository - possible, but Rob hasn't got it working yet
 - Don't use Plugins, could not get the embed code (use just a link to updated version) and Dark Theme didn't work either.
 
