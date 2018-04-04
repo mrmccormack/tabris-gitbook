@@ -2,7 +2,6 @@
     "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
-        "theme": "dark",
             "languages": [
                 {
                     "lang": "js",
@@ -14,6 +13,15 @@
                     "name": "Go"
                 }
             ]
+        }
+    }
+}
+
+{
+    "plugins": ["theme-api"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark"
         }
     }
 }
