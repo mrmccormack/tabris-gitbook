@@ -9,7 +9,28 @@ Generally, if there is on only one Widget in an app, just use the full name
 `txtMarkDown`
 
 
+# variables, constants etc.
 
+- This is nice (string literals or integer literals):
+
+```js
+const PI = 3.14;
+const ADDRESS = '10.0.0.1';
+```
+
+>but...
+
+```js
+const myObject = {'key': 'value'};
+const userSuppliedNumber = getInputNumber()
+
+```
+
+**NOTE:**
+- Google JavaScript Style Guide says:
+- Declare all local variables with either const or let. Use const by default, unless a variable needs to be reassigned. The var keyword must not be used.
+
+---
 
 
 ```js
