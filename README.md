@@ -1,7 +1,6 @@
 # Tabris.js: A Gentle Introduction PDF
 
-
-## Introduction 
+## Introduction
 
 > Tabris.js is a mobile framework that lets you develop apps for iOS, Android and Windows from a single code base written entirely in JavaScript or TypeScript and JSX.
 
@@ -21,9 +20,8 @@ You can try out Tabris.js without installing anything on your computer.
 
 To start developing a real Tabris.js app, follow the[Quick Start Guide](https://tabrisjs.com/tabris-js-docs/latest/getting-started.html). We also have an excellent[ebook](https://tabrisjs.com/downloads/)that explains how to create, deploy and test your first Tabris.js app.
 
-![](/assets/cover.jpg)
-.js.![](/cover.jpg)
+![](/assets/cover.jpg)  
 
----
+
 
 
