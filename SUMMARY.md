@@ -14,10 +14,6 @@
 * [Event handling style](best-practices/event-handling.md)
 * [Test: JS code lots of](best-practices/test-js-code-lots-of.md)
 
-## Methods
-
-* [Defining Methods](methods.md)
-
 ## GitBook Reference
 
 * [Reference: GitBook Rob](reference-gitbook-rob.md)

@@ -1,4 +1,4 @@
-# Tabris.js: A Gentle Introduction PDF with EMBED April 4, 2017 - change 1 and change 2
+# Tabris.js: A Gentle Introduction PDF with EMBED April 4, 2017 - change 1 and change 2 and change 3
 
 Show the global gitbook variable here... what  would  you use if for.???
 
