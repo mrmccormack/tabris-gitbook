@@ -10,3 +10,11 @@
 
 
 ---
+
+# How to do a cover.
+- not sure of this one, you can include cover.jpg
+- Ref: 
+
+
+---
+
