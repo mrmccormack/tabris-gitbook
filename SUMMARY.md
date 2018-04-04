@@ -14,6 +14,8 @@
 * [Event handling style](best-practices/event-handling.md)
 * [Test: JS code lots of](best-practices/test-js-code-lots-of.md)
 
+## Promises
+
 ## GitBook Reference
 
 * [Reference: GitBook Rob](reference-gitbook-rob.md)
