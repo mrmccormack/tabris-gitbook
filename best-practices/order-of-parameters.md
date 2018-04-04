@@ -1,5 +1,19 @@
 # Ordering of Widget properties
 
+## Use of layoutData
+
+What is the advantage? 
+1. it validates against Javascript Standard on ONE line.
+
+- what order, width height always last.
+
+
+```js
+layoutData: {left: offset, top: offset, width: 100, height: 100},
+
+```
+
+
 Widget properties take the form
 
 ```js
