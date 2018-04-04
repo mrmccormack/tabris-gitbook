@@ -7,9 +7,9 @@
 _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 
 # Here is variable from book.json
-- {{ myVariable }}
+- {{ book.myVariable }}
 
-# This is a test: {{ myVariable }}
+# This is a test: {{ book.myVariable }}
 
 ## First Steps {#first-steps}
 
