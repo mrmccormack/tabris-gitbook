@@ -13,6 +13,9 @@ _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 
 # This is a test: {{ book.myVariable }}
 
+# This is version from book.json {{ book.version }}
+
+
 ## First Steps {#first-steps}
 
 You can try out Tabris.js without installing anything on your computer.

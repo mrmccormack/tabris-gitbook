@@ -1,5 +1,6 @@
 {
     "variables": {
-        "myVariable": "Hello World"
+        "myVariable": "Hello World",
+        "version": "Tabris.js 2.4.2"
     }
 }
