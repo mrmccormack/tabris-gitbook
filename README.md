@@ -5,6 +5,11 @@ Show the global gitbook variable here... what  would  you use if for.???
 
 ---
 
+{% github_embed "https://github.com/v5analytics/gitbook-plugin-github-embed/blob/master/src/tag.js" %}{% endgithub_embed %}
+
+
+
+
 
 Introduction 
 
