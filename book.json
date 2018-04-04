@@ -3,6 +3,10 @@
     "pluginsConfig": {
         "theme-api": {
             "languages": [
+            {
+            "theme": "dark"
+        },
+
                 {
                     "lang": "js",
                     "name": "JavaScript",
@@ -13,15 +17,6 @@
                     "name": "Go"
                 }
             ]
-        }
-    }
-}
-
-{
-    "plugins": ["theme-api"],
-    "pluginsConfig": {
-        "theme-api": {
-            "theme": "dark"
         }
     }
 }
