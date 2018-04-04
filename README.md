@@ -6,6 +6,10 @@
 
 _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 
+# Here is variable from book.json
+- {{ myVariable }}
+
+
 ## First Steps {#first-steps}
 
 You can try out Tabris.js without installing anything on your computer.
