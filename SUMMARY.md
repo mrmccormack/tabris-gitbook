@@ -12,9 +12,8 @@
 * [Ordering of Widget properties](best-practices/order-of-parameters.md)
 * [Coding Style](best-practices/coding-style.md)
 * [Event handling style](best-practices/event-handling.md)
+* [Promises Explained](best-practices/promises-explained.md)
 * [Test: JS code lots of](best-practices/test-js-code-lots-of.md)
-
-## Promises
 
 ## GitBook Reference
 
