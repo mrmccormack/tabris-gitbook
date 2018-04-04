@@ -5,7 +5,6 @@
 * [Tabris.js: A Gentle Introduction](README.md)
 * [Chapter One: Your first Tabris.js app](chapter-one-your-first-tabrisjs-app.md)
 * [Add an Article](add-an-article.md)
-* [Reference: GitBook Rob](reference-gitbook-rob.md)
 
 ## Best Practices
 
@@ -18,4 +17,8 @@
 ## Methods
 
 * [Defining Methods](methods.md)
+
+## GitBook Reference
+
+* [Reference: GitBook Rob](reference-gitbook-rob.md)
 
