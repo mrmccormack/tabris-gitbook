@@ -21,5 +21,5 @@
 ## GitBook Reference
 
 * [Reference: GitBook Rob](reference-gitbook-rob.md)
-  * [Test Embed](reference-gitbook-rob/test-embed.md)
+* [Test embed](test-embed.md)
 
