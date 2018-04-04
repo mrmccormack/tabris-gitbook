@@ -1,14 +1,7 @@
-# Tabris.js: A Gentle Introduction PDF with EMBED April 4, 2017 - change 1 and change 2 and change 3 and change 4
+# Tabris.js: A Gentle Introduction 
 
 
-Show the global gitbook variable here... what  would  you use if for.???
-
-
----
-# No book.json, No Github embed
-
-
-Introduction 
+## Introduction 
 
 > Tabris.js is a mobile framework that lets you develop apps for iOS, Android and Windows from a single code base written entirely in JavaScript or TypeScript and JSX.
 
@@ -31,8 +24,5 @@ To start developing a real Tabris.js app, follow the[Quick Start Guide](https://
 .js.![](/cover.jpg)
 
 ---
-
-## Hello with cover on README.md ?
-
 
 
