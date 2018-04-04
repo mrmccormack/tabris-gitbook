@@ -1,18 +1,9 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": ["github-embed"],
     "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
+        "github-embed": {
+            "showLink": true,
+            "reindent": true 
         }
     }
 }
