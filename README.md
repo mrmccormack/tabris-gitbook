@@ -4,12 +4,7 @@ Show the global gitbook variable here... what  would  you use if for.???
 
 
 ---
-# Github embed test
-
-{% github_embed "https://github.com/v5analytics/gitbook-plugin-github-embed/blob/master/src/tag.js" %}{% endgithub_embed %}
-
-
-
+# No book.json, No Github embed
 
 
 Introduction 
