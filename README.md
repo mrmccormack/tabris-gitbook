@@ -9,6 +9,7 @@ _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 # Here is variable from book.json
 - {{ myVariable }}
 
+# This is a test: {{ myVariable }}
 
 ## First Steps {#first-steps}
 
