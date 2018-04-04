@@ -1,4 +1,4 @@
-# Tabris.js: A Gentle Introduction 
+# Tabris.js: A Gentle Introduction PDF
 
 
 ## Introduction 
