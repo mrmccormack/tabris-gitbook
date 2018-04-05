@@ -6,6 +6,13 @@
 
 _A Gentle Introduction to Tabris.js_ will let you explore and learn Tabris.js
 
+
+---
+# Read the PDF getting started first
+- https://tabrisjs.com/downloads/ebook/tabrisjs-2.4.2.pdf
+
+![](/assets/tabrisbookpdf.png)
+
 # Here is variable from book.json {{ book.myVariable }}
 
 
