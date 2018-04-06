@@ -4,21 +4,47 @@
 
 Generally, if there is on only one Widget in an app, just use the full name
 
-
-
 `txtMarkDown`
+
+
+
+# Use of comments
+
+```js
+/*
+ * This is
+ * okay.
+ */
+
+// And so
+// is this.
+
+/* This is fine, too. */
+
+//comment           // ✗ avoid
+// comment          // ✓ ok
+ 
+/*comment*/         // ✗ avoid
+/* comment */       // ✓ ok
+
+
+// above comment - always... Atom Javascrip Prettier Standard doesn't allow inline comments, after code 
+var foo = 'bar'
+
+```
 
 # Naming conventions for variables, constants, functions and classes
 
-**TL;DR:** Use ***lowerCamelCase*** when naming constants, variables and functions and ***UpperCamelCase*** (capital first letter as well) when naming classes. This will help you to easily distinguish between plain variables / functions, and classes that require instantiation. Use descriptive names, but try to keep them short.
+**TL;DR:** Use _**lowerCamelCase**_ when naming constants, variables and functions and _**UpperCamelCase**_ \(capital first letter as well\) when naming classes. This will help you to easily distinguish between plain variables / functions, and classes that require instantiation. Use descriptive names, but try to keep them short.
 
-**Otherwise:** Javascript is the only language in the world which allows to invoke a constructor ("Class") directly without instantiating it first. Consequently, Classes and function-constructors are differentiated by starting with UpperCamelCase.
+**Otherwise:** Javascript is the only language in the world which allows to invoke a constructor \("Class"\) directly without instantiating it first. Consequently, Classes and function-constructors are differentiated by starting with UpperCamelCase.
 
 #### Code Example
+
 ```javascript
   // for class name we use UpperCamelCase
   class SomeClassExample {}
-    
+
   // for const names we use the const keyword and lowerCamelCase
   const config = {
     key: 'value'
@@ -29,30 +55,28 @@ Generally, if there is on only one Widget in an app, just use the full name
   function doSomething() {}
 ```
 
-
 # variables, constants etc.
 
-- This is nice (string literals or integer literals):
+* This is nice \(string literals or integer literals\):
 
 ```js
 const PI = 3.14;
 const ADDRESS = '10.0.0.1';
 ```
 
->but...
+> but...
 
 ```js
 const myObject = {'key': 'value'};
 const userSuppliedNumber = getInputNumber()
-
 ```
 
 **NOTE:**
-- Google JavaScript Style Guide says:
-- Declare all local variables with either const or let. Use const by default, unless a variable needs to be reassigned. The var keyword must not be used.
+
+* Google JavaScript Style Guide says:
+* Declare all local variables with either const or let. Use const by default, unless a variable needs to be reassigned. The var keyword must not be used.
 
 ---
-
 
 ```js
 // Create the activity indicator centered in the page
@@ -78,13 +102,7 @@ let txiMarkDown = new TextInput({
 | **TextView** | **txv** | ** txvCountry** |
 | **Button** | **btn** | **btnReadFile** |
 
-
-
 `txtMarkDown`
-
-
-
-
 
 ```js
 // Create the activity indicator centered in the page
@@ -104,13 +122,11 @@ let txiMarkDown = new TextInput({
 }).appendTo(ui.contentView);
 ```
 
-
-
 | `Widget` | `Prefix` | `Example` |
 | :--- | :--- | :--- |
-| **`TextInput`** | **`txi`** | **`txiMarkDown`** |
-| **`TextView`** | **`txv`** | **` txvCountry`** |
-| **`Button`** | **`btn`** | **`btnReadFile`** |
+| `TextInput` | `txi` | `txiMarkDown` |
+| `TextView` | `txv` | `txvCountry` |
+| `Button` | `btn` | `btnReadFile` |
 | asdf | asdf | asdf |
 
 
