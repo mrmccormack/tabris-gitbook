@@ -8,6 +8,28 @@ Generally, if there is on only one Widget in an app, just use the full name
 
 
 
+# JavaScript Standard Errors
+
+google search...
+
+* https://github.com/eslint/eslint/issues/5150
+
+```js
+No idea if that is important for this, but using brackets also suppresses the warning, although it's still returning the assignment.
+
+// Arrow function should not return assignment
+const a = (v) => v.b = 1
+// passes
+const a = (v) => (v.b = 1)
+```
+
+So, on setting theme snippet... the second one works without error
+
+```js
+  .on('select', ({ index }) => ui.statusBar.background = BACKGROUNDS[index])
+  .on('select', ({ index }) => (ui.statusBar.background = BACKGROUNDS[index]))
+```
+
 # Use of comments
 
 ```js
@@ -23,14 +45,13 @@ Generally, if there is on only one Widget in an app, just use the full name
 
 //comment           // ✗ avoid
 // comment          // ✓ ok
- 
+
 /*comment*/         // ✗ avoid
 /* comment */       // ✓ ok
 
 
 // above comment - always... Atom Javascrip Prettier Standard doesn't allow inline comments, after code 
 var foo = 'bar'
-
 ```
 
 # Naming conventions for variables, constants, functions and classes
