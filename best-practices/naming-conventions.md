@@ -6,16 +6,14 @@ Generally, if there is on only one Widget in an app, just use the full name
 
 `txtMarkDown`
 
-
-
 # JavaScript Standard Errors
 
 google search...
 
-* https://github.com/eslint/eslint/issues/5150
+* [https://github.com/eslint/eslint/issues/5150](https://github.com/eslint/eslint/issues/5150)
 
 ```js
-No idea if that is important for this, but using brackets also suppresses the warning, although it's still returning the assignment.
+// No idea if that is important for this, but using brackets also suppresses the warning, although it's still returning the assignment.
 
 // Arrow function should not return assignment
 const a = (v) => v.b = 1
