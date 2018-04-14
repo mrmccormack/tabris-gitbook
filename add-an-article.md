@@ -1,8 +1,8 @@
-# This is a test asdf
+# Font color
 
-Now is the time
+Do explanation of this:
 
-
+http://docs.tabris.com/latest/types.html\#font 
 
 
 

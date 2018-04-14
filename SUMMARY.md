@@ -4,7 +4,7 @@
 
 * [Tabris.js: A Gentle Introduction](README.md)
 * [Chapter One: Your first Tabris.js app](chapter-one-your-first-tabrisjs-app.md)
-* [Add an Article](add-an-article.md)
+* [FontColor and more](add-an-article.md)
 
 ## Best Practices
 
