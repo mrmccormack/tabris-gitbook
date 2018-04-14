@@ -6,6 +6,16 @@ Generally, if there is on only one Widget in an app, just use the full name
 
 `txtMarkDown`
 
+## Importing Tabrisjs Modules
+
+The local require function is used to load and import another module. It accepts a module identifier string and returns whatever that module exports.
+
+These can be placed in any order. But this book always arranges them in alphabetical order as shown. You may find with a lot of requires, this technique will make it easier to find, add and delete things.
+
+```js
+const { app, device, TextView, ui } = require('tabris')
+```
+
 # JavaScript Standard Errors
 
 google search...
