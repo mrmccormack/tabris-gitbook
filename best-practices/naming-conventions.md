@@ -1,5 +1,10 @@
 # Naming Conventions
 
+# Tip and Tricks
+
+- this is a tip 
+
+
 ## Widgets
 
 Generally, if there is on only one Widget in an app, just use the full name
@@ -84,6 +89,11 @@ var foo = 'bar'
   function doSomething() {}
 ```
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 # variables, constants etc.
 
 * This is nice \(string literals or integer literals\):
@@ -123,15 +133,19 @@ let txiMarkDown = new TextInput({
   type: 'multiline',
   text: INITIAL_TEXT
 }).appendTo(ui.contentView);
+
+
 ```
 
-| Widget | Prefix | Example |
-| :--- | :--- | :--- |
-| **TextInput** | **txi** | **txiMarkDown** |
-| **TextView** | **txv** | ** txvCountry** |
-| **Button** | **btn** | **btnReadFile** |
+# Naming Convention for Widget Prefixes
+> Suggested:
 
-`txtMarkDown`
+|Widget| Prefix | Example |
+|--|--|-- |
+| *Button* | `btn` |`btnReadFile`
+| *TextInput* | `txi` | `txiMarkDown` |
+| *TextView* | `txv` |  `txvCity` |
+
 
 ```js
 // Create the activity indicator centered in the page
@@ -151,12 +165,6 @@ let txiMarkDown = new TextInput({
 }).appendTo(ui.contentView);
 ```
 
-| `Widget` | `Prefix` | `Example` |
-| :--- | :--- | :--- |
-| `TextInput` | `txi` | `txiMarkDown` |
-| `TextView` | `txv` | `txvCountry` |
-| `Button` | `btn` | `btnReadFile` |
-| asdf | asdf | asdf |
 
 
 
